@@ -1,0 +1,21 @@
+# Ignore compiled files
+*.class
+*.o
+*.pyc
+
+# Ignore IDE or editor-specific files
+.idea/
+.vscode/
+
+# Ignore build directories
+node_modules/
+build/
+dist/
+
+# Ignore sensitive information
+config.ini
+secrets.txt
+
+# Ignore compiled binaries
+*.exe
+*.dll
