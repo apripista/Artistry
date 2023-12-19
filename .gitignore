@@ -19,3 +19,4 @@ secrets.txt
 # Ignore compiled binaries
 *.exe
 *.dll
+.vercel
