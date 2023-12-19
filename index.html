@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--   ==== meta data ====   -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Tito's web design and development portfolio.">
+    <meta name="keywords" content="profile, web development, coding, portfolio">
+    <meta name="author" content="Tito Joctan">
+    
+    <!--    ==== Twitter Card Meta Tags (for Twitter sharing):====    -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tito's Profile Page">
+    <meta name="twitter:description" content="Explore Tito's web design and development portfolio.">
+    <meta name="twitter:image" content="perfectaltruist.JPG">
+
+    <!-- ==== Pinterest Meta Tags (for Pinterest sharing): ==== -->
+    <meta name="pinterest:description" content="A brief description of your profile or website.">
+    <meta name="pinterest:image" content="perfectaltruist.JPG">
+
+    <!-- ==== LinkedIn Meta Tags (for LinkedIn sharing): ==== -->
+    <meta property="og:title" content="Tito's Profile Page">
+    <meta property="og:description" content="Explore Tito's web design and development portfolio.">
+    <meta property="og:image" content="perfectaltruist.JPG">
+
+    <!-- ==== GitHub (Git) Meta Tags (for Git repository sharing): ==== -->
+    <meta property="og:title" content="Tito's GitHub Repository">
+    <meta property="og:description" content="A brief description of your GitHub repository.">
+    <meta property="og:image" content="perfectaltruist.JPG">
+    <meta property="og:url" content="https://github.com/Perfect-Altruistics/Artistry">
+
+    <title>Tito's Profile Page</title>
+    
+    <!--   ==== my custom stylesheets ====   -->
+    <link rel="stylesheet" href="cascadestylesheets/stylesheet.css">
+    <link rel="stylesheet" href="cascadestylesheets/mediaqueries.css">
+    <link rel="icon" href="Photos/favicon.ico" type="image/x-icon">
+
+</head>
+
+<!--    ==== body ====    -->
+<body>
+    <header>
+        <!--    ===== header ====    -->
+        <h1>The Artistry of Joctan</h1>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <!--    ==== navgation bar ====    -->
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contacts">contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--    ==== container ====    -->
+    <div class="container">
+
+        <!--    ==== aside ====    -->
+        <aside class="container">
+            <img src="perfectaltruist.JPG" alt="Profile Image">
+            <div class="span">
+                <h2>Tito Joctan</h2>
+                <p>Software Developer</p>
+                <!--    ==== social icose ====    -->
+                    <ul>
+                        <li><a href="https://github.com/Perfect-Altruistics" target="_blank" title="Github profile"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/perfect-altruistic/" target="_blank" title="Linkedin profile"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="https://twitter.com/Perfect_Altruis" target="_blank" title="X (Twitter) profile"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://hashnode.com/@Altruist" target="_blank" title="Hashnode profile"><i class="fa-brands fa-hashnode"></i></a></li>
+                        <li><a href="https://www.pinterest.com/intuitivers/" target="_blank" title="Pinterest Profile"><i class="fab fa-pinterest"></i></a></li> 
+                    </ul>
+            </div>
+        </aside>
+
+        <!--    ==== main ====    -->
+        <main>
+            <!--    ==== about me ====    -->
+            <div id="about" class="services">
+                <h2>about me</h2>
+                <p class="demographic">
+                    <span>
+                        <i class="fas fa-birthday-cake"></i> 22 
+                        <a href="https://maps.app.goo.gl/SDVQHwH9KRCwexy47" target="_blank"><i class="fas fa-map-marker-alt"></i> Arusha(TZ)</a>
+                        <i class="fas fa-heart"></i> Single
+                    </span>
+                </p>
+                <p>Hello! I'm <b>Tito Joctan</b>, an aspiring web developer currently pursuing a Bachelor's Degree in Cybersecurity. I am passionate about software development and system documentations.</p>
+            </div>
+
+            <!--    ==== services ====    -->
+            <section id="services" class="column">
+                <h2 class="section-title">services</h2>
+            
+                <div class="service-container">
+                    <i class="fas fa-code"></i>
+                    <!--    ==== Programming ====    -->
+                    <h3>Programmer</h3>
+                    <p>Beginner Python enthusiast exploring software development with skills in algorithms, code structure, data structures, OOP, Flask, and Django for web development.Eager to grow and contribute to Open Source!</p>
+                </div>
+        
+                <div class="service-container">
+                    <i class="fas fa-database"></i>
+                    <!--    ==== Database management ====    -->
+                    <h3>Database Design</h3>
+                    <p> Performing Intermediate database operations, and retrieve data using SQL queries. I can develop simple applications with database connectivity.I'm familiar with Both PostgreSQL and MySQL</p>
+                    </div>
+
+                <div class="service-container">
+                    <i class="fas fa-laptop"></i>
+                    <!--    ==== Web Designer ====    -->
+                    <h3>Web Design</h3>
+                    <p>I am a web designer proficient in HTML, intermediate in CSS, and I can create Personal Portfolios and static websites and incorporate some functionality using limited JavaScript compatibility.</p>
+                </div>
+                
+                <div class="service-container">
+                    <i class="fas fa-graduation-cap"></i>
+                    <!--    ==== Student Mentorship ====    -->
+                    <h3>Student Mentorship</h3>
+                    <p>I provide mentorship and guidance to aspiring students in the field of web development, Programming and Database Design.I also write articles on <a href="https://hashnode.com/@Altruist" class="hashnode">hashnode</a> </span></p>
+                </div>
+            </section>
+
+            <!--    ==== Tech Skills section ====   -->
+            <section id="skills" class="column">
+                <h2 class="section-title">skills</h2>
+                <p>My skill set encompasses a range of abilities, each contributing to the creation of robust and engaging digital experiences.</p>                <div class="skills-container">
+                    <div class="skill-item">
+                        <h3>HTML</h3>
+                        <p>Proficient</p>
+                        <div class="progress-circle progress-circle-html" data-progress="90" style="--progress: 30%"></div>
+                    </div>
+
+                    <div class="skill-item">
+                        <h3>CSS</h3>
+                        <p>Intermediate</p>
+                        <div class="progress-circle progress-circle-css" data-progress="50" style="--progress: 50%"></div>
+                    </div>
+
+                    <div class="skill-item">
+                        <h3>Git</h3>
+                        <p>Basics</p>
+                        <div class="progress-circle progress-circle-git" data-progress="30" style="--progress: 30%"></div>
+                    </div>
+
+                    <div class="skill-item">
+                        <h3>JavaScript</h3>
+                        <p>Basics</p>
+                        <div class="progress-circle progress-circle-javascript" data-progress="20" style="--progress: 20%"></div>
+                    </div>
+
+                    <div class="skill-item">
+                        <h3>Python</h3>
+                        <p>Basics</p>
+                        <div class="progress-circle progress-circle-python" data-progress="40" style="--progress: 40%"></div>
+                    </div>
+
+                    <div class="skill-item">
+                        <h3>SQL (MySQL, PostgreSQL)</h3>
+                        <p>Intermediate</p>
+                        <div class="progress-circle progress-circle-sql" data-progress="70" style="--progress: 30%"></div>
+                    </div>  
+                </div>
+            </section>
+
+            <!--    ==== Soft Skills Section ====    -->
+            <section id="soft-skills" class="column">
+                <h3 class="soft-skills">soft Skills</h3>
+                <ul class="soft-skills-list">
+                    <li>Communication</li>
+                    <li>Adaptability</li>
+                    <li>Problem Solving</li>
+                    <li>Teamwork</li>
+                    <li>Time Management</li>
+                </ul>
+            </section>
+
+            <!--    ==== Projects section ====    -->
+            <section id="projects" class="column">
+                <h2 class="section-title">projects</h2>
+                <p>Each project tells a unique story, merging creativity with practicality.</p>
+                <!--     ==== Project: AuthFlaskApp ====    -->
+                <div class="project-container">
+                    <img src="Photos/authflaskapp.png" alt="AuthFlaskApp Image">
+                    <h3> <a href="https://github.com/Perfect-Altruistics/AuthFkaskApp">AuthFlaskApp</a></h3>
+                    <p>AuthFlaskApp is a Flask-based authentication application focused on providing secure and seamless user authentication experiences. It includes features such as user registration, login, and password reset functionality.</p>
+                </div>
+
+                <!--    ==== Project: Flavoufull ====    -->
+                <div class="project-container">
+                    <img src="Photos/flavoufull.jpg" alt="Flavoufull Image">
+                    <h3><a href="https://github.com/Perfect-Altruistics/Flavourful">Flavoufull</a></h3>
+                    <p>Flavoufull is a collection of diverse and delightful recipes gathered from around the world. It not only provides step-by-step cooking instructions but also allows users to contribute their own favorite recipes, creating a vibrant community of food enthusiasts.</p>
+                </div>
+
+                <!--    ==== Project: InspiraHub ====    -->
+                <div class="project-container">
+                    <img src="Photos/inspirahub.png" alt="InspiraHub Image">
+                    <h3><a href="https://github.com/Perfect-Altruistics/InsipiraHub">InspiraHub</a></h3>
+                    <p>InspiraHub is a feature-rich blogging platform built with Flask, Python, and PostgreSQL. It offers a user-friendly interface for creating and managing blog posts, complete with commenting functionality. InspiraHub is designed to inspire and connect writers and readers alike.</p>
+                </div>
+            </section>
+
+        <!--    ==== contact form ====    -->
+        <div class="contact-form-container" id="contacts">
+            <h2>contact me</h2>
+                <p>However, please be aware that my current focus on personal growth, development of my personal Git repositories, and my degree commitments means that I have limited availability for collaboration at this time. Feel free to drop me a message, and I'll do my best to explore possibilities within my current constraints. Excited to hear from you!</p>
+                <form id="contact-form" action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+     
+            </form>
+
+            <address>
+                <p> <i class="fas fa-envelope"></i> <a href="mailto:intuitivers@gmail.com"> intuitivers@gmail.com</a>
+                <i class="fas fa-birthday-cake"></i> 22 
+                <a href="https://maps.app.goo.gl/SDVQHwH9KRCwexy47" target="_blank"><i class="fas fa-map-marker-alt"></i> Arusha(TZ)</a>
+                  </p>   
+            </address>
+        </div>
+
+        <button id="back-to-top" onclick="scrollToTop()">Back to Top</button>
+
+                <!--    ==== footer ====    -->
+                <footer>
+                    <p>&copy; 2023 Tito Joctan All right reserved</p>
+                </footer>
+            </main>
+        </div>
+
+        <script>
+            // Function to toggle the visibility of the navigation menu
+            function toggleMenu() {
+                // Select the navigation menu
+                var nav = document.querySelector('.nav-menu');
+                // Toggle the 'show' class to display/hide the menu
+                nav.classList.toggle('show');
+        
+                // Select the menu toggle button
+                var menuToggle = document.querySelector('.menu-toggle');
+                // Toggle the 'active' class based on the menu visibility
+                menuToggle.classList.toggle('active', nav.classList.contains('show'));
+        
+                // Close the menu after clicking a link on small screens
+                if (window.innerWidth <= 768) {
+                    var links = document.querySelectorAll('.nav-menu a');
+                    links.forEach(link => {
+                        link.addEventListener('click', function () {
+                            nav.classList.remove('show');
+                            menuToggle.classList.remove('active');
+                        });
+                    });
+                }
+            }
+        
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+        
+                    // Scroll smoothly to the target section
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+        
+                    // Close the menu after clicking a link on small screens
+                    if (window.innerWidth <= 768) {
+                        toggleMenu();
+                    }
+                });
+            });
+        
+            // Event listener for window resize to hide the menu on larger screens
+            window.addEventListener('resize', function () {
+                if (window.innerWidth > 768) {
+                    var nav = document.querySelector('.nav-menu');
+                    nav.classList.remove('show');
+        
+                    var menuToggle = document.querySelector('.menu-toggle');
+                    menuToggle.classList.remove('active');
+                }
+            });
+        
+            // Function for smooth scrolling to the top of the page
+            function scrollToTop() {
+                const scrollTop = Math.max(
+                    document.body.scrollTop,
+                    document.documentElement.scrollTop
+                );
+        
+                if (scrollTop > 0) {
+                    window.requestAnimationFrame(scrollToTop);
+                    window.scrollTo(0, scrollTop - scrollTop / 10);
+                }
+            }
+        </script>
+    
+    <!--    ==== scripts ==== -->
+    <script src='https://kit.fontawesome.com/3b57a2a2a7.js'></script> <!--Back-to-top functionality button-->
+    <script src="scripts/script.js"></script>
+</body>
+</html>
